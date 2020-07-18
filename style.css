@@ -1,4 +1,4 @@
-* { user-select: none; }
+ * { user-select: none; }
 
 img {
   position: absolute;
@@ -14,7 +14,7 @@ img {
 
 #foreground1, #foreground2 { z-index: 1 ;}
 
-#foreground2, #background2 {
+#foreground2, #background2  {
   transform: translateX(100%);
 }
 
@@ -48,11 +48,11 @@ img {
 
 #palm1 {
   top: -15%; left: 40%    
-}
+} 
 
 #bush {
   top: 55%; left: 20%    
-}
+} 
 
 #red-queen_and_alice {
   position: absolute;
@@ -60,7 +60,7 @@ img {
   transform: translate(-50%, -50%);
   overflow: hidden;
   width: 80%;
-  max-width: 450px; /*height: 783px / 2*/
+  max-width: 450px; 
   z-index: 1;
 }
 
